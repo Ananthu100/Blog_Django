@@ -1,8 +1,12 @@
-<html>  
-    <head>  
-        <title>Blog Home</title>  
-    </head>  
-    <body>  
-        <h1>Welcome to the Blog Home Page</h1>  
-    </body>
-</html>
+{% extends "blog/base.html" %}
+{% block content %}
+    {%  for post in posts %}
+        <h1>TITLE : {{ post.Title }}</h1>
+        <h2>Author is {{ post.Author }}</h2>
+        <h2>Content in Blog : {{ post.Content }}</h2>
+        <h2>Date Posted is {{ post.DatePosted }}</h2>
+    {% endfor %} 
+{% endblock content %}
+
+ 
+
