@@ -6,16 +6,16 @@ from django.http import HttpResponse
 #Dummy data
 data = [
     {
-        'Title' : "FIRST BLOG",
-        'Author' : "Ananthu",
-        'Content' : "This is my first blog content",
-        'DatePosted' : "17-12-2025"
+        'title' : "FIRST BLOG",
+        'author' : "Ananthu",
+        'content' : "This is my first blog content",
+        'date_posted' : "17-12-2025"
     },
     {
-        'Title' : "SECOND BLOG",
-        'Author' : "Jacky",
-        'Content' : "This is my Second blog content",
-        'DatePosted' : "18-12-2025"
+        'title' : "SECOND BLOG",
+        'author' : "Jacky",
+        'content' : "This is my Second blog content",
+        'date_posted' : "18-12-2025"
     }
 ]
 
